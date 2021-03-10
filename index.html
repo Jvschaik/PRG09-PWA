@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#3E4491" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="images/icon-192x192.png" />
+    <title>PWA Jason van Schaik</title>
+  </head>
+  <body class="background">
+    <header>
+      <h1 class="title">Progressive Web App Jason van Schaik</h1>
+      <div class="column">
+        <h2 id="statusToggle" class="statusToggle">Je bent online!</h2>
+        <section class="tags">
+          <div id="tagCheck" class="tagCheck">
+            <select name="tagSelect" id="tagSelect"></select>
+            <button onclick="filterTags()" class="tagSelectButton">
+              Go for it!
+            </button>
+          </div>
+        </section>
+      </div>
+    </header>
+    <div class="projects" id="projects"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

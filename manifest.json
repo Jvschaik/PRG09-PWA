@@ -1,0 +1,33 @@
+{
+    "name": "PWA Jason",
+    "short_name": "PWA Jason",
+    "start_url": "/",
+    "theme_color": "#3E4491",
+    "background_color": "#3E4491",
+    "display": "standalone",
+    "Scope": "/",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "images/icon-72x72.png",
+        "sizes": "72x72",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
